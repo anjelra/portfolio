@@ -4,7 +4,6 @@
   },
   "homepage": "http://anjelra.github.io/portfolio/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    
   }
 }
