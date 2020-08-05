@@ -25,3 +25,11 @@ div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, t
     text-decoration: none;
     color: #000;
 }
+
+.contents {
+    padding: 10px 250px;
+}
+
+.contents img {
+    float: left;
+}
