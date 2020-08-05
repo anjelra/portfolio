@@ -1,7 +1,13 @@
 .header {
     position: fixed;
-    width: 40%;
+    width: 23%;
     height: 100%;
     top: 0;
     left: 0;
+    background-color: #b2b2b2;
+}
+
+.header li a {
+    line-height: 50px;
+    font-size: 20px;
 }
