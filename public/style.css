@@ -33,10 +33,7 @@ div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, t
 }
 
 .contents {
-    padding-top: 20px;
-    padding-left: 250px;
-    /* background-image: url('./img/cat.jpg'); */
-    /* background-size: 100% 100%; */
+    padding: 20px 30px 0 250px;
 }
 
 .contents .image-container {
@@ -67,21 +64,35 @@ div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, t
 }
 
 .caption {
-    visibility: hidden;
+    display: none;
 }
 
 table {
     width: 100%;
-    /* border: 1px solid #000; */
     border-style: 1px none none;
+    border-collapse: collapse;
 }
 
 table tr,
-table td {
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
+table td,
+table th {
+    border: 1px solid #b2b2b2;
 }
 
 table th {
-    background-color: #b2b2b2;
+    background-color: #DCDCD3;
+    padding: 15px 0;
+    border-style: solid solid none;
+    border-width: 2px 1px 0;
+    border-color: #000 #b2b2b2;
+}
+
+table td {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.contents a {
+    text-decoration: none;
+    color: #000;
 }

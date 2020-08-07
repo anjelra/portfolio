@@ -4,7 +4,6 @@ const app = express();
 
 console.log(path.join(__dirname, './public/index.html'));
 app.use(express.static(path.join(__dirname, './public')));
-// app.use(express.static(path.join(__dirname, './public/index.html')));
 
 app.listen(3005, function() {
     console.log('3005');
