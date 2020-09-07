@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #b2b2b2;
+  z-index: 1000;
+}
+
+.header li {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul, ol, dl, dt, dd, li {
+  list-style: none;
+}
+
+div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td, button, textarea, select {
+  margin: 0;
+  border: none;
+}
+
+.contents {
+  padding: 20px 30px 0 250px;
+}
+
+.contents .image-container {
+  float: left;
+  margin-right: 60px;
+  width: 60%;
+  min-width: 400px;
+  max-width: 800px;
+  height: 800px;
+  background-image: url("../../img/img_cat.jpg");
+  background-size: 100% 100%;
+}
+
+.contents .info-container {
+  margin-top: 350px;
+}
+
+.contents .info-container .title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.contents .info-container ul {
+  margin-top: 30px;
+}
+
+.contents .info-container ul li {
+  line-height: 35px;
+}
+
+.contents a {
+  text-decoration: none;
+  color: #000;
+}
+
+.caption {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-style: 1px none none;
+  border-collapse: collapse;
+}
+
+table tr, table td, table th {
+  border: 1px solid #b2b2b2;
+}
+
+table th {
+  background-color: #DCDCD3;
+  padding: 15px 0;
+  border-style: solid solid none;
+  border-width: 2px 1px 0;
+  border-color: #000 #b2b2b2;
+}
+
+table td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=map/main.css.map */
